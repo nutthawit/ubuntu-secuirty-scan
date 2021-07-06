@@ -1,0 +1,7 @@
+---
+- name: Security scan - Ubuntu
+  become: true
+  hosts: all
+  gather_facts: true
+  roles:
+    - ubuntu-role
